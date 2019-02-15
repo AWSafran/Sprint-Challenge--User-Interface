@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto 0; 
 }
 
 header{
@@ -92,7 +92,7 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    width: 600px;
+    width: 630px;
 }
 
 .head-img{
@@ -131,4 +131,27 @@ header nav{
     background: white;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.bottom-content{
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
