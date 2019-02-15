@@ -101,7 +101,7 @@ header nav{
 
 .top-content{
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 0 15px 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -109,6 +109,7 @@ header nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 .main-content div{
@@ -135,6 +136,7 @@ header nav{
 
 .bottom-content{
     margin-bottom: 30px;
+    padding: 0 15px;
 }
 
 footer {
