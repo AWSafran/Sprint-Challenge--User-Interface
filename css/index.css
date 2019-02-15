@@ -95,6 +95,10 @@ header nav{
     width: 600px;
 }
 
+.head-img{
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
