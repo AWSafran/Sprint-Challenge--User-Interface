@@ -142,7 +142,7 @@ header nav{
     border-radius: 10px;
     animation-name: test;
     animation-duration: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 
 .bottom-content{
