@@ -127,11 +127,22 @@ header nav{
     margin-bottom: 20px;
 }
 
+@keyframes test{
+    0%{background-color: white; color: black;}
+    25%{background-color: red; color: yellow;}
+    50%{background-color: blue; color: green;}
+    75%{background-color: orange; color: pink;}
+    100%{background-color: black; color: white;}
+    }
+
 .main-content button{
     padding: 10px 25px;
     background: white;
     border: 2px solid black;
     border-radius: 10px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
 }
 
 .bottom-content{
