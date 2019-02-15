@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin-top: 20px; 
+    margin: 20px auto; 
 }
 
 header{
@@ -105,3 +105,14 @@ header nav{
     border-bottom: 1px dashed black;
 }
 
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content div{
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding: 10px 0;
+}
