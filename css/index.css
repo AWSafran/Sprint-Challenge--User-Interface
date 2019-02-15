@@ -68,7 +68,31 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin-top: 20px; 
+}
+
+header{
+    display: flex;
+    align-content: center
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+header img{
+    width: 160px;
+}
+
+header nav a{
+   padding-top: 20px;
+   text-decoration: none;
+   color: black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 600px;
 }
 
 .top-content {
