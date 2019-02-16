@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 20px auto; 
+    margin: 20px auto 0; 
 }
 
 header{
@@ -92,104 +92,62 @@ header nav{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    width: 6300px;
+    width: 630px;
 }
 
 .head-img{
     margin-bottom: 20px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.top-content{
     margin-bottom: 20px;
+    padding: 0 15px 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.main-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main-content div{
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding: 10px 0 20px;
+    margin-bottom: 35px;
 }
 
-.b1{
-    background: teal;
-}
-.b2{
-    background: gold;
+.main-content div img{
+    margin-bottom: 15px;
 }
 
-.b3{
-    background: cadetblue;
+.main-content p{
+    margin-bottom: 20px;
 }
 
-.b4{
-    background: coral;
+@keyframes test{
+    0%{background-color: white; color: black;}
+    25%{background-color: red; color: yellow;}
+    50%{background-color: blue; color: green;}
+    75%{background-color: orange; color: pink;}
+    100%{background-color: black; color: white;}
+    }
+
+.main-content button{
+    padding: 10px 25px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
-.b5{
-    background: crimson;
-}
-
-.b6{
-    background: forestgreen;
-}
-
-.b7{
-    background: darkorchid;
-}
-
-.b8{
-    background: hotpink;
-}
-
-.b9{
-    background: indigo;
-}
-
-.b10{
-    background: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom-content{
+    margin-bottom: 30px;
+    padding: 0 15px;
 }
 
 footer {
